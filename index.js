@@ -112,8 +112,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there JINWIIL-VMD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet KHAN-MD WhatsApp Bot.\n\n *Thanks for using JINWIIL-VMD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Finjohns/JINWIIL-VMD\n\n> © Powered BY 𝐉𝐢𝐧𝐰𝐢𝐢𝐥 𝐎𝐧𝐠𝐢𝐧𝐣𝐨 \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/7zfdcq.jpg` }, caption: up })
+  let up = `*Hello there 𝖩𝗂𝗇𝗐𝗂𝗂𝗅-𝖵𝗆𝖽 User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet 𝙹𝚒𝚗𝚠𝚒𝚒𝚕-𝚅𝚖𝚍 WhatsApp Bot.\n\n *Thanks for using 𝙹𝚒𝚗𝚠𝚒𝚒𝚕-𝚅𝚖𝚍 \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Finjohns/JINWIIL-VMD\n\n> © Powered BY 𝐉𝐢𝐧𝐰𝐢𝐢𝐥 𝐎𝐧𝐠𝐢𝐧𝐣𝐨 \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/x40v42.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -198,7 +198,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('923470027813', '923191089077', '923146190772');
+    const jawad = ('254769365617', '254713192684', '254784320958');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -245,7 +245,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("923146190772")){
+  if(senderNumber.includes("254769365617")){
   if(isReact) return
   m.react("🦋")
    }
@@ -768,7 +768,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("KHAN MD STARTED ✅");
+  res.send("JINWIIL-VMD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
