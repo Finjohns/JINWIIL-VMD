@@ -42,3 +42,4 @@ async(conn, mek, m, {
         reply("❌ Failed to promote the member.");
     }
 });
+//𝙹𝙸𝙽𝚆𝙸𝙸𝙻-𝚅𝙼𝙳
