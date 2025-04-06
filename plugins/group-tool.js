@@ -15,7 +15,7 @@ async (conn, mek, m, {
     from, groupMetadata, groupAdmins, isBotAdmins, senderNumber, reply, isGroup
 }) => {
     try {
-        // Check if the command is used in a group
+        //Check if the command is used in a group
         if (!isGroup) {
             return reply("This command can only be used in groups.");
         }
