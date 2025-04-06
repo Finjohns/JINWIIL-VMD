@@ -149,7 +149,7 @@ cmd({
   try {
     if (!args.length) {
       await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
-      return reply("Please provide a video name. Example: .video2 Pakistani Farzi");
+      return reply("Please provide a video name. Example: .video2 Kenyan Farzi");
     }
 
     // Add processing react
@@ -286,7 +286,7 @@ cmd({
   try {  
     if (!args.length) {  
       await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });  
-      return reply("Please provide a song name. Example: .play Pakistani Farzi");  
+      return reply("Please provide a song name. Example: .play Kenyan Farzi");  
     }  
 
     // Add processing react  
@@ -409,3 +409,4 @@ cmd({
     await conn.sendMessage(from, { text: errorMessage }, { quoted: mek });  
   }  
 });
+// code by 𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻
