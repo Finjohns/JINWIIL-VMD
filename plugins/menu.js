@@ -25,24 +25,24 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Menu List* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• Quranmenu
-┃◈┃• Prayertime
-┃◈┃• Aimenu
-┃◈┃• Anmiemenu
-┃◈┃• Reactions
-┃◈┃• Convertmenu
-┃◈┃• Funmenu
-┃◈┃• Dlmenu
-┃◈┃• Listcmd
-┃◈┃• Mainmenu
-┃◈┃• Groupmenu
-┃◈┃• Allmenu
-┃◈┃• Ownermenu
-┃◈┃• Othermenu
-┃◈┃• Logo 
-┃◈┃• Repo
-┃◈└───────────┈⊷
+┃╭─────────────·๏
+┃┃• Quranmenu
+┃┃• Prayertime
+┃┃• Aimenu
+┃┃• Anmiemenu
+┃┃• Reactions
+┃ ༒ ┃• Convertmenu
+┃ ༒ ┃• Funmenu
+┃ ༒ ┃• Dlmenu
+┃ >༒ ┃• Listcmd
+┃ >༒ ┃• Mainmenu
+┃ >༒ ┃• Groupmenu
+┃ >༒ ┃• Allmenu
+┃ >༒ ┃• Ownermenu
+┃ >༒ ┃• Othermenu
+┃ >༒ ┃• Logo 
+┃ >༒ ┃• Repo
+┃ >༒ └───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
