@@ -13,7 +13,7 @@ cmd({
 },
 async(conn, mek, m, {from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, isItzcp, groupAdmins, isBotAdmins, isAdmins, reply}) => {
     try {
-        const city = args.length > 0 ? args.join(" ") : "bhakkar"; // Default to Bhakkar if no city is provided
+        const city = args.length > 0 ? args.join(" ") : "Nairobi"; // Default to Nairobi if no city is provided
         const apiUrl = `https://api.nexoracle.com/islamic/prayer-times?city=${city}`;
 
         const response = await fetch(apiUrl);
@@ -60,8 +60,8 @@ async(conn, mek, m, {from, l, quoted, body, isCmd, command, args, q, isGroup, se
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363388529450317@newsletter',
+                        newsletterName: '𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅',
                         serverMessageId: 143
                     }
                 }
@@ -71,7 +71,7 @@ async(conn, mek, m, {from, l, quoted, body, isCmd, command, args, q, isGroup, se
 
         // Optionally, send an audio file related to the prayer time
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/Islamic.m4a' },
+            audio: { url: '' },
             mimetype: 'audio/mp4',
             ptt: false
         }, { quoted: mek });
