@@ -29,11 +29,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 const encodedPhoneNumber = encodeURIComponent(q);
     const response = await fetch(`https://finjses-b48ccf9d841f.herokuapp.com/code?number=${encodedPhoneNumber}`);
 
-    if (!response.ok) {
-      return await reply("Error fetching data from the API.Please try again later.");
-        const pair = await response.json();
-
-        // Check for errors in response
+    // Check for errors in response
         if (!pair || !pair.code) {
             return await reply("Failed to retrieve pairing code. Please check the phone number and try again.");
         }
