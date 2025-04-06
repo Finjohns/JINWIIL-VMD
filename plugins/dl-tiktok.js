@@ -41,3 +41,4 @@ async (conn, mek, m, { from, args, q, reply }) => {
     }
 });
           
+//𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅
