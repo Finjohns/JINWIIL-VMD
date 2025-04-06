@@ -1,10 +1,10 @@
 {
-  "bot-name": "KHAN-MD",
-  "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
-  "logo": "https://raw.githubusercontent.com/XdTechPro/KHAN-DATA/refs/heads/main/logo/KHAN.png",
-  "keywords": ["KHAN-MD"],
-  "documentation-link": "https://khanmdx.onrender.com",
-  "owner-verification": "hhsjawad246@gmail.com",
+  "bot-name": "JINWIIL-VMD",
+  "description": "Javascript WhatsApp bot made by 𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻",
+  "logo": "https://files.catbox.moe/x40v42.jpg",
+  "keywords": ["JINWIIL-VMD"],
+  "documentation-link": "https://finjses-b48ccf9d841f.herokuapp.com",
+  "owner-verification": "jinwiil40@gmail.com",
 
   "env": {
     "SESSION_ID": {
@@ -15,7 +15,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "KHAN-MD"
+      "value": "𝗝𝗜𝗡𝗪𝗜𝗜𝗟-𝗩𝗠𝗗"
     }, 
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
@@ -70,17 +70,17 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Jᴀᴡᴀᴅ TᴇᴄʜX"
+      "value": "𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻"
     }, 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "92310344XXXX"
+      "value": "254769365617"
     }, 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "KHAN-MD"
+      "value": "𝗝𝗜𝗡𝗪𝗜𝗜𝗟-𝗩𝗠𝗗"
     }, 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
@@ -95,7 +95,7 @@
     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻*"
     },
     "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
