@@ -1,4 +1,4 @@
-cost { DATABASE } = require('../lib/database');
+const { DATABASE } = require('../lib/database');
 const { DataTypes } = require('sequelize');
 
 const UpdateDB = DATABASE.define('UpdateInfo', {
