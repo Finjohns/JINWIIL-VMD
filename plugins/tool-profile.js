@@ -119,3 +119,5 @@ ${isGroup ? `👥 *Group Role:* ${groupRole}` : ''}
         reply(`❌ Error: ${e.message || "Failed to fetch profile"}`);
     }
 });
+
+//code by 𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻
