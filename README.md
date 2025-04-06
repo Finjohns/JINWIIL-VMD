@@ -1,41 +1,41 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=200&lines=KHAN-MD-V3.0" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=200&lines=𝗝𝗶𝗻𝘄𝗶𝗶𝗹-𝗩𝗺𝗱-V1.0" alt="Typing SVG" /></a>
   </p>
   
 ---  
 
-> **`Updated To` The Version 4.0**
+> **`New version` The Version 1.0**
 ---
 
 ```
-KHAN-MD BY JawadTechX 💜 
+𝐉𝐢𝐧𝐰𝐢𝐢𝐥-𝐕𝐦𝐝 By 𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻💜 
 ```
 
 --- 
 
-<a><img src='https://cdn.ironman.my.id/i/9zd4if.jpg'/></a>
+<a><img src='https://files.catbox.moe/0szlko.jpg'/></a>
 
 ---
 
 <p align="center">
-  <a href="https://github.com/XdTechPro"><img title="Developer" src="https://img.shields.io/badge/Author-Jawad%20TechX-FF7604.svg?style=big-square&logo=github" /></a>
+  <a href="https://github.com/Finjohns"><img title="Developer" src="https://img.shields.io/badge/Author-𝙹𝙸𝙽𝚆𝙸𝙸𝙻%20TechX-FF7604.svg?style=big-square&logo=github" /></a>
 </p>
 
 <div align="center">
   
-[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j)
+[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N)
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{KHAN-MD}/count.svg" alt="XdTechPro :: Visitor's Count" old_src="https://profile-counter.glitch.me/{XdTechPro}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{JINWIIL-VMD}/count.svg" alt="JINWIIL-VMD TECH :: Visitor's Count" old_src="https://profile-counter.glitch.me/{𝙹𝚒𝚗𝚠𝚒𝚒𝚕-𝚅𝚖𝚍}/count.svg" /></p>
 
 
 <p align="center">
-<a href="https://github.com/XdTechPro/KHAN-MD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=KHAN-MD&label=VIEWS&style=square&color=blue" />
+<a href="https://github.com/Finjohns/JINWIIL-VMD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=JINWIIL-VMD&label=VIEWS&style=square&color=blue" />
 </p>
 </p> 
 
 <p align="center">
-  <a href="https://github.com/XdTechPro/KHAN-MD"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v3.0-cyan.svg?style=for-the-badge&logo=appveyor" /></a>
+  <a href="https://github.com/Finjohns/JINWIIL-VMD"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v3.0-cyan.svg?style=for-the-badge&logo=appveyor" /></a>
 </p>
 
 
@@ -43,20 +43,20 @@ KHAN-MD BY JawadTechX 💜
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/XdTechPro/KHAN-MD/fork"><img title="KHAN-MD" src="https://img.shields.io/badge/FORK-KHAN MD-h?color=green&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/Finjohns/JINWIIL-VMD/fork"><img title="𝗝𝗶𝗻𝘄𝗶𝗶𝗹-𝗩𝗺𝗱" src="https://img.shields.io/badge/FORK-𝗝𝗶𝗻𝘄𝗶𝗶𝗹-𝗩𝗺𝗱-h?color=green&style=for-the-badge&logo=stackshare"></a>
 
 > Get Pair Code (Session ID)
 
 
 
 <p align="left">  
-<a href='https://khanmdx.onrender.com' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-B700FB?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
+<a href='' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-B700FB?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
 </p>  <p align="left">  
-<a href='https://khanmdx2.onrender.com' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-000000?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
+<a href='' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-000000?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
 </p>  
 
 
-🚀 Deploy KHAN-MD
+🚀 Deploy JINWIIL-VMD
 
 > Deploy on Heroku
 
@@ -87,7 +87,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 
 <p align="left">  
-<a href="https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j/1368" target="_blank"><img alt='View Workflow Codes' src='https://img.shields.io/badge/View-Workflow%20Codes-FF0076?style=for-the-badge&logo=githubactions&logoColor=white'/></a>  
+<a href="https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N" target="_blank"><img alt='View Workflow Codes' src='https://img.shields.io/badge/View-Workflow%20Codes-FF0076?style=for-the-badge&logo=githubactions&logoColor=white'/></a>  
 </p>  
 ---
 
@@ -103,11 +103,11 @@ Start by forking this repository to your own GitHub account. Click the button be
 ---
 
 🏆 Credits & Contributors
-> KHAN-MD Owner 
-- [JawadTechX](https://github.com/XdTechPro)
-- Creater and Owner Of KHAN-MD
-> KHAN-MD Helpers 
-- [ROMEKTRICKS](https://github.com/ROMEKTRICKS)
+> JINWIIL-VMD Owner 
+- [𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻](https://github.com/Finjohns)
+- Creater and Owner Of 𝙹𝚒𝚗𝚠𝚒𝚒𝚕-𝚅𝚖𝚍
+> 𝖩𝗂𝗇𝗐𝗂𝗂𝗅-𝖵𝗆𝖽 Helpers 
+- [Jawadx](https://github.com/Xdtechpro)
 - For helping in bot plugin files.
   
 
