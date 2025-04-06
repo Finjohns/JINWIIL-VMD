@@ -24,3 +24,4 @@ async (conn, mek, m, { from, isGroup, isAdmins, isBotAdmins, reply }) => {
     }
 });
     
+//𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅
