@@ -95,3 +95,4 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     reply(`Error: ${error.message}`);
   }
 });
+// code by 𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻
