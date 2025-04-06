@@ -210,7 +210,7 @@ async (conn, mek, m, { from, reply }) => {
         ];
 
         for (const line of emojiMessages) {
-            await new Promise(resolve => setTimeout(resolve, 1000)); // Delay for 1 second
+            await new Promise(resolve => setTimeout(resolve, 1000)); //Delay for 1 second
             await conn.relayMessage(
                 from,
                 {
@@ -346,4 +346,4 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-// > JawadTechX 
+// > 𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅
