@@ -1,4 +1,4 @@
-// Jawad TechX - KHAN MD 
+// 𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅 🕸️👻 - 𝙹𝙸𝙽𝚆𝙸𝙸𝙻-𝚅𝙼𝙳 
 // Dont Remove Credit From File 
 
 const { cmd } = require("../command");
@@ -6,8 +6,8 @@ const { cmd } = require("../command");
 // Safety Configuration
 const SAFETY = {
   MAX_JIDS: 20,
-  BASE_DELAY: 2000,  // jawad on top 🔝
-  EXTRA_DELAY: 4000,  // huh don't copy mine file 
+  BASE_DELAY: 2000,  // 𝙹𝙸𝙽𝚆𝙸𝙸𝙻-𝚅𝙼𝙳 on top 🔝
+  EXTRA_DELAY: 4000,  // huh don't copy my file 
 };
 
 cmd({
