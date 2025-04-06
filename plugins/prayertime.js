@@ -71,7 +71,7 @@ async(conn, mek, m, {from, l, quoted, body, isCmd, command, args, q, isGroup, se
 
         // Optionally, send an audio file related to the prayer time
         await conn.sendMessage(from, {
-            audio: { url: '' },
+            audio: { url: 'https://files.catbox.moe/7yrx2k.mp4' },
             mimetype: 'audio/mp4',
             ptt: false
         }, { quoted: mek });
