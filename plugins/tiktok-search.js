@@ -58,3 +58,5 @@ cmd({
     reply("❌ An error occurred while searching TikTok. Please try again later.");
   }
 });
+
+// code by 𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻
