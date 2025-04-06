@@ -47,7 +47,7 @@ cmd({
     filename: __filename
 },
 async (conn, m, { reply, q, react }) => {
-    // Get the bot owner's number dynamically
+    //Get the bot owner's number dynamically
     const botOwner = conn.user.id.split(":")[0] + "@s.whatsapp.net";
 
     if (m.sender !== botOwner) {
