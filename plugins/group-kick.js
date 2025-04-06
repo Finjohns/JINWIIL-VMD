@@ -42,3 +42,4 @@ async (conn, mek, m, {
         reply("❌ Failed to remove the member.");
     }
 });
+//𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅
