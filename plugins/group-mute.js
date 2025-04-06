@@ -23,3 +23,4 @@ async (conn, mek, m, { from, isGroup, senderNumber, isAdmins, isBotAdmins, reply
         reply("❌ Failed to mute the group. Please try again.");
     }
 });
+// 𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅
