@@ -37,11 +37,11 @@ cmd({
                 from,
                 { 
                     image: { url: imageUrl },
-                    caption: `📷 Result for: ${query}\n> © Powered by JawadTechX`
+                    caption: `📷 Result for: ${query}\n> © Powered by 𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅`
                 },
                 { quoted: mek }
             );
-            // Add delay between sends to avoid rate limiting
+            //Add delay between sends to avoid rate limiting
             await new Promise(resolve => setTimeout(resolve, 1000));
         }
 
