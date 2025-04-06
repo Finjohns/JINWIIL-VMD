@@ -43,7 +43,7 @@
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/Finjohns/JINWIIL-VMD/fork"><img title="𝗝𝗶𝗻𝘄𝗶𝗶𝗹-𝗩𝗺𝗱" src="https://img.shields.io/badge/FORK-𝗝𝗶𝗻𝘄𝗶𝗶𝗹-𝗩𝗺𝗱-h?color=green&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/Finjohns/JINWIIL-VMD/fork"><img title="JINWIIL-VMD" src="https://img.shields.io/badge/FORK-𝗝𝗶𝗻𝘄𝗶𝗶𝗹-𝗩𝗺𝗱-h?color=green&style=for-the-badge&logo=stackshare"></a>
 
 > Get Pair Code (Session ID)
 
