@@ -47,7 +47,7 @@ cmd({
 
         // If the message is from a group
         if (isGroup) {
-            // Respond with the group JID
+            //Respond with the group JID
             return reply(`Group JID: *${from}@g.us*`);
         }
 
