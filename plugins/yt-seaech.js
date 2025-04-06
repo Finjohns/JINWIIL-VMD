@@ -9,7 +9,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 cmd({
     pattern: "yts",
     alias: ["ytsearch"],
-    use: '.yts jawad',
+    use: '.yts 𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾',
     react: "🔎",
     desc: "Search and get details from youtube.",
     category: "search",
