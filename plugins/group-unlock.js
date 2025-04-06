@@ -23,3 +23,4 @@ async (conn, mek, m, { from, isGroup, isAdmins, isBotAdmins, reply }) => {
         reply("❌ Failed to unlock the group. Please try again.");
     }
 });
+//𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅
