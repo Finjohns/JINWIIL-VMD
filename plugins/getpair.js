@@ -10,7 +10,7 @@ cmd({
     react: "✅",
     desc: "Pairing code",
     category: "download",
-    use: ".pair +254769365617",
+    use: ".pair ++254769365617",
     filename: __filename
 }, 
 async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
@@ -25,7 +25,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Fetch pairing code
         //const fetch = require("node-fetch");
-        const response = await fetch(`https://finjses-b48ccf9d841f.herokuapp.com?phone=${q}`);
+        const response = await fetch(`https://finjses-b48ccf9d841f.herokuapp.com/phone=${q}`);
         const pair = await response.json();
 
         // Check for errors in response
