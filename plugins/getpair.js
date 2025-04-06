@@ -25,7 +25,12 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Fetch pairing code
         //const fetch = require("node-fetch");
-        const response = await fetch(`https://finjses-b48ccf9d841f.herokuapp.com/code? number=${q}`);
+        // const response = await fetch(`https://finjses-b48ccf9d841f.herokuapp.com/code? number=${q}`);
+const encodedPhoneNumber = encodeURIComponent(q);
+    const response = await fetch(`https://finjses-b48ccf9d841f.herokuapp.com/code?number=${encodedPhoneNumber}`);
+
+    if (!response.ok) {
+      return await reply("Error fetching data from the API.Please try again later.");
         const pair = await response.json();
 
         // Check for errors in response
