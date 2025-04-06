@@ -46,7 +46,7 @@ async (conn, mek, m, { from, body, isOwner }) => {
             
             if (config.AUTO_STICKER === 'true') {
                 //if (isOwner) return;        
-                await conn.sendMessage(from,{sticker: { url : data[text]},package: 'KHAN-MD'},{ quoted: mek })   
+                await conn.sendMessage(from,{sticker: { url : data[text]},package: '𝙹𝙸𝙽𝚆𝙸𝙸𝙻-𝚅𝙼𝙳'},{ quoted: mek })   
             
             }
         }
