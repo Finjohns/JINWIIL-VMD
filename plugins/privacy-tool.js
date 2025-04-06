@@ -16,39 +16,39 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let privacyMenu = `╭━━〔 *Privacy Settings* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• blocklist - View blocked users
-┃◈┃• getbio - Get user's bio
-┃◈┃• setppall - Set profile pic privacy
-┃◈┃• setonline - Set online privacy
-┃◈┃• setpp - Change bot's profile pic
-┃◈┃• setmyname - Change bot's name
-┃◈┃• updatebio - Change bot's bio
-┃◈┃• groupsprivacy - Set group add privacy
-┃◈┃• getprivacy - View current privacy settings
-┃◈┃• getpp - Get user's profile picture
-┃◈┃
-┃◈┃*Options for privacy commands:*
-┃◈┃• all - Everyone
-┃◈┃• contacts - My contacts only
-┃◈┃• contact_blacklist - Contacts except blocked
-┃◈┃• none - Nobody
-┃◈┃• match_last_seen - Match last seen
-┃◈└───────────┈⊷
+┃༺╭─────────────·๏
+┃༺┃• blocklist - View blocked users
+┃༺┃• getbio - Get user's bio
+┃༺┃• setppall - Set profile pic privacy
+┃༺┃• setonline - Set online privacy
+┃༺┃• setpp - Change bot's profile pic
+┃༺┃• setmyname - Change bot's name
+┃༺┃• updatebio - Change bot's bio
+┃༺┃• groupsprivacy - Set group add privacy
+┃༺┃• getprivacy - View current privacy settings
+┃༺┃• getpp - Get user's profile picture
+┃༺┃
+┃༺┃*Options for privacy commands:*
+┃༺┃• all - Everyone
+┃༺┃• contacts - My contacts only
+┃༺┃• contact_blacklist - Contacts except blocked
+┃༺┃• none - Nobody
+┃༺┃• match_last_seen - Match last seen
+┃༺└───────────┈⊷
 ╰──────────────┈⊷
 *Note:* Most commands are owner-only`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7zfdcq.jpg` }, // Replace with privacy-themed image if available
+                image: { url: `https://files.catbox.moe/0szlko.jpg` }, // Replace with privacy-themed image if available
                 caption: privacyMenu,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
+                        newsletterJid: '120363388529450317@newsletter',
                         newsletterName: "Privacy Settings",
                         serverMessageId: 143
                     }
