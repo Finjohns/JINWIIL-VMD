@@ -33,3 +33,4 @@ async (conn, mek, m, { from, quoted, body, args, reply }) => {
         reply(`❌ An error occurred:\n${e.message}`);
     }
 });
+// code by 𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻
