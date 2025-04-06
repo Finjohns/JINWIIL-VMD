@@ -24,3 +24,4 @@ async (conn, mek, m, { from, isGroup, isAdmins, isBotAdmins, args, q, reply }) =
         reply("❌ Failed to update the group name. Please try again.");
     }
 });
+//𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅
