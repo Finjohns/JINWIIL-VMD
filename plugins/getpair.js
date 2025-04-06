@@ -25,9 +25,18 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Fetch pairing code
         //const fetch = require("node-fetch");
-        const response = await fetch(`https://khanmdx2.onrender.com/pair?phone=${q}`);
+
+        const encodedPhoneNumber = encodeURIComponent(q);
+    const response = await fetch(`https://finjses-b48ccf9d841f.herokuapp.com/code?number=${encodedPhoneNumber}`);
+
+
+    if (!response.ok) {
+      return await reply(client, message, "Error fetching data from the API.Please try again later.");
+   /*     const response = await fetch(`/pair?phone=${q}`);
         const pair = await response.json();
 
+      */
+        const pair = await response.json();
         // Check for errors in response
         if (!pair || !pair.code) {
             return await reply("Failed to retrieve pairing code. Please check the phone number and try again.");
