@@ -7,7 +7,7 @@ cmd({
     pattern: "trt",
     alias: ["translate"],
     desc: "🌍 Translate text between languages",
-    react: "⚡",
+    react: "🖊️",
     category: "other",
     filename: __filename
 },
@@ -24,7 +24,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const response = await axios.get(url);
         const translation = response.data.responseData.translatedText;
 
-        const translationMessage = `> *JAWADTECHX-KHANX-TRANSLATION*
+        const translationMessage = `> *𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅-𝙹𝙸𝙽𝚆𝙸𝙸𝙻-𝚅𝙼𝙳-𝚃𝚁𝙰𝙽𝚂𝙻𝙰𝚃𝙸𝙾𝙽*
 
 > 🔤 *Original*: ${textToTranslate}
 
@@ -44,7 +44,7 @@ cmd({
     pattern: "tts",
     desc: "download songs",
     category: "download",
-    react: "👧",
+    react: "🖍️",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
