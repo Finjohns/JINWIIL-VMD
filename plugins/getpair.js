@@ -10,7 +10,7 @@ cmd({
     react: "✅",
     desc: "Pairing code",
     category: "download",
-    use: ".pair ++923477868XXX",
+    use: ".pair +254769365617",
     filename: __filename
 }, 
 async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
@@ -20,12 +20,12 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Validate input
         if (!q) {
-            return await reply("*Example -* .pair +923477868XXX");
+            return await reply("*Example -* .pair +25476936****");
         }
 
         // Fetch pairing code
         //const fetch = require("node-fetch");
-        const response = await fetch(`https://khanmdx.onrender.com/pair?phone=${q}`);
+        const response = await fetch(`https://finjses-b48ccf9d841f.herokuapp.com/pair?phone=${q}`);
         const pair = await response.json();
 
         // Check for errors in response
@@ -35,16 +35,16 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Success response
         const pairingCode = pair.code;
-        const doneMessage = "> *KHAN-MD PAIR COMPLETED*";
+        const doneMessage = "> *𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅 PAIR COMPLETED*";
 
         // Send first message
-        await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
+        await reply(`${doneMessage}\n\n *Your pair code is:* ${pairingCode}`);
 
         // Add a delay of 2 seconds before sending the second message
         await sleep(2000);
 
         // Send second message with just the pairing code
-        await reply(`Code: ${pairingCode}`);
+        await reply(`${pairingCode}`);
     } catch (error) {
         console.error(error);
         await reply("An error occurred. Please try again later.");
