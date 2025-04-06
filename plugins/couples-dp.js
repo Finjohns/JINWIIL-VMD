@@ -39,7 +39,7 @@ cmd({
         'caption': "👩 Female Couple Profile Picture"
       }, { 'quoted': m });
     }
-
+//𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅
   } catch (error) {
     console.error(error);
     reply("❌ An error occurred while fetching the couple profile pictures.");
