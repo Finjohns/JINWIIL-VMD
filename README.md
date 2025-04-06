@@ -43,7 +43,7 @@
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/Finjohns/JINWIIL-VMD/fork"><img title="𝗝𝗶𝗻𝘄𝗶𝗶𝗹-𝗩𝗺𝗱" src="https://img.shields.io/badge/FORK-𝗝𝗶𝗻𝘄𝗶𝗶𝗹-𝗩𝗺𝗱-h?color=green&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/Finjohns/JINWIIL-VMD/fork"><img title="𝗝𝗶𝗻𝘄𝗶𝗶𝗹-𝗩𝗺𝗱" src="https://img.shields.io/badge/FORK-𝗝JINWIIL-VMD-h?color=green&style=for-the-badge&logo=stackshare"></a>
 
 > Get Pair Code (Session ID)
 
@@ -107,7 +107,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 - [𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻](https://github.com/Finjohns)
 - Creater and Owner Of 𝙹𝚒𝚗𝚠𝚒𝚒𝚕-𝚅𝚖𝚍
 > 𝖩𝗂𝗇𝗐𝗂𝗂𝗅-𝖵𝗆𝖽 Helpers 
-- [Jawadx](https://github.com/Xdtechpro)
+- [Finjohns](https://github.com/Jinwiil)
 - For helping in bot plugin files.
   
 
