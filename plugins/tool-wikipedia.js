@@ -44,3 +44,5 @@ cmd({
     reply("An error occurred: " + error.message);
   }
 });
+
+// code by 𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻
