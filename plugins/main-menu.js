@@ -15,22 +15,22 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
-┃★╭──────────────
-┃★│ Owner : *${config.OWNER_NAME}*
-┃★│ Baileys : *Multi Device*
-┃★│ Type : *NodeJs*
-┃★│ Platform : *Heroku*
-┃★│ Mode : *[${config.MODE}]*
-┃★│ Prifix : *[${config.PREFIX}]*
-┃★│ Version : *3.0.0 Bᴇᴛᴀ*
-┃★╰──────────────
+┃༻╭──────────────
+┃༻│ Owner : *${config.OWNER_NAME}*
+┃༻│ Baileys : *Multi Device*
+┃༻│ Type : *NodeJs*
+┃༻│ Platform : *Heroku*
+┃༻│ Mode : *[${config.MODE}]*
+┃༻│ Prifix : *[${config.PREFIX}]*
+┃★│ Version : *1.0.0 Bᴇᴛᴀ*
+┃༻╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Download Menu* 〕━━┈⊷
->┃➬◈╭─────────────·๏
->┃➬◈┃• facebook
->┃➬◈┃• mediafire
->┃➬◈┃• tiktok
->┃➬◈┃• twitter
+┃➬◈╭─────────────·๏
+┃➬◈┃• facebook
+┃➬◈┃• mediafire
+┃➬◈┃• tiktok
+┃➬◈┃• twitter
 ┃➬◈┃• Insta
 ┃➬◈┃• apk
 ┃➬◈┃• img
