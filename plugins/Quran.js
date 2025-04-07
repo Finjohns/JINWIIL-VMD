@@ -66,8 +66,8 @@ ${translatedTafsirEnglish.text}`;
           forwardingScore: 999,  
           isForwarded: true,   
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363354023106228@newsletter', 
-            newsletterName: 'JawadTechX', 
+            newsletterJid: '120363388529450317@newsletter', 
+            newsletterName: '𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅', 
             serverMessageId: 143
           }
         }
@@ -456,8 +456,8 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '120363388529450317@newsletter',
+                        newsletterName: '𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅',
                         serverMessageId: 143
                     }
                 }
@@ -466,7 +466,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         );
 
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/Quran.m4a' },
+            audio: { url: 'https://files.catbox.moe/dud9vu.mp3' },
             mimetype: 'audio/mp4',
             ptt: false
         }, { quoted: mek });
