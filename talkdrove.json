@@ -4,7 +4,7 @@
   "logo": "https://files.catbox.moe/x40v42.jpg",
   "keywords": ["JINWIIL-VMD"],
   "documentation-link": "https://finjses-b48ccf9d841f.herokuapp.com",
-  
+  "owner-verification": "jinwiil101@gmail.com",
 
   "env": {
     "SESSION_ID": {
