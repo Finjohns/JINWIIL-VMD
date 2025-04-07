@@ -71,7 +71,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 
 <p align="left">  
-<a href='https://host.talkdrove.com/share-bot/82' target="_blank"><img alt='Deploy on TaikDrove' src='https://img.shields.io/badge/Deploy%20on-TaikDrove-6971FF?style=for-the-badge&logo=google-cloud&logoColor=white'/></a>  
+<a href='https://host.talkdrove.com/new?template=https://github.com/XdTechPro/KHAN-MD/tree/main target="_blank"><img alt='Deploy on TaikDrove' src='https://img.shields.io/badge/Deploy%20on-TaikDrove-6971FF?style=for-the-badge&logo=google-cloud&logoColor=white'/></a>  
 </p>
 
 > Deploy on Koyeb
