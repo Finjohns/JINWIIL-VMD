@@ -88,4 +88,4 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
     }
 });
 
-
+//code by 𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅
