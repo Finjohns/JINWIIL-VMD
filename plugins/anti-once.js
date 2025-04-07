@@ -51,7 +51,7 @@ cmd({
         }, { quoted: message });
     }
 
-    // Forward to user's DM
+    //Forward to user's DM
     await client.sendMessage(message.sender, messageContent, options);
   } catch (error) {
     console.error("vv Error:", error);
