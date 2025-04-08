@@ -42,7 +42,7 @@ const encodedPhoneNumber = encodeURIComponent(q);
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
 
         // Add a delay of 2 seconds before sending the second message
-        await sleep(2000);
+        await sleep(3000);
 
         // Send second message with just the pairing code
         await reply(`Code: ${pairingCode}`);
