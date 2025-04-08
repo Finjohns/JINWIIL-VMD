@@ -27,7 +27,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
         //const fetch = require("node-fetch");
         // const response = await fetch(`https://finjses-b48ccf9d841f.herokuapp.com/code? number=${q}`);
 const encodedPhoneNumber = encodeURIComponent(q);
-    const response = await fetch(`https://finjses-b48ccf9d841f.herokuapp.com/pair/code?phone=${encodedPhoneNumber}`);
+    const response = await fetch(`https://ses2-2582c8630180.herokuapp.com/pair/code?phone=${encodedPhoneNumber}`);
 
     // Check for errors in response
         if (!pair || !pair.code) {
@@ -36,7 +36,7 @@ const encodedPhoneNumber = encodeURIComponent(q);
 
         // Success response
         const pairingCode = pair.code;
-        const doneMessage = "> *KHAN-MD PAIR COMPLETED*";
+        const doneMessage = "> *JINWIIL-VMD PAIR COMPLETED*";
 
         // Send first message
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
