@@ -47,8 +47,8 @@ _Reply to this message with 1 or 2 to download._`;
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363354023106228@newsletter',
-                newsletterName: 'KHAN-MD',
+                newsletterJid: '120363388529450317@newsletter',
+                newsletterName: '𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅',
                 serverMessageId: 143
             }
         };
@@ -148,8 +148,8 @@ _Reply with 1, 2 or 3 to this message to download the format you prefer._`;
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363354023106228@newsletter',
-                newsletterName: 'JAWAD TECH X',
+                newsletterJid: '120363388529450317@newsletter',
+                newsletterName: '𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅',
                 serverMessageId: 143
             }
         };
