@@ -324,7 +324,7 @@ if (!isReact && senderNumber === botNumber) {
   command.on === "sticker" &&
   mek.type === "stickerMessage"
   ) {
-  command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, text, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+  command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, text, isGroup, iChannel, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
   }});
   
   });
