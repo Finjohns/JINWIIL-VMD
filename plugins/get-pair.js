@@ -1,4 +1,5 @@
 //const fetch = require("node-fetch");
+/*
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson} = require('../lib/functions')
 const { cmd } = require("../command");
 
@@ -49,8 +50,9 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
         console.error(error);
         await reply("An error occurred. Please try again later.");
     }
-});
-/* //const fetch = require("node-fetch");
+});  */
+
+//const fetch = require("node-fetch");
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson} = require('../lib/functions')
 const { cmd } = require("../command");
 
@@ -102,4 +104,4 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
         await reply("An error occurred. Please try again later.");
     }
 }); 
-*/
+
