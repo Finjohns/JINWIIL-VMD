@@ -1,4 +1,5 @@
-/*const { cmd } = require("../command");
+/*
+const { cmd } = require("../command");
 
 cmd({
   pattern: "vv",
@@ -63,3 +64,4 @@ cmd({
   }
 });
 // 𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅
+*/
