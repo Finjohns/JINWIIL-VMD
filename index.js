@@ -886,7 +886,6 @@ const port = process.env.PORT || 9090;
   connectToWA()
   }
   } else if (connection === 'open') {
-	  await client.groupAcceptInvite("KoK02NUGIdsL0vqY7U9DjY");
   console.log('🧬 Installing Plugins')
   const path = require('path');
   fs.readdirSync("./plugins/").forEach((plugin) => {
