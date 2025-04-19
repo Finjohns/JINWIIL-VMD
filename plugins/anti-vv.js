@@ -1,4 +1,4 @@
-/*
+
 const { cmd } = require("../command");
 
 cmd({
@@ -63,13 +63,12 @@ cmd({
     }, { quoted: message });
   }
 });
-// 𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅
-*/
-/*
+// 𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷
+
 const { cmd } = require("../command");
 
 cmd({
-  pattern: "vv",
+  pattern: "vv5",
   alias: ["viewonce", '🙃'],
   react: '👾',
   desc: "Owner Only - retrieve quoted message back to user",
@@ -78,13 +77,13 @@ cmd({
 }, async (client, message, match, { from, isOwner }) => {
   try {
     if (!isOwner) {
-      return await client.sendMessage(from, {
+      return await conn.sendMessage(from, {
         text: "*📛 This is an owner command.*"
       }, { quoted: message });
     }
 
     if (!match.quoted) {
-      return await client.sendMessage(from, {
+      return await conn.sendMessage(from, {
         text: "*🍁 Please reply to a view once message!*"
       }, { quoted: message });
     }
@@ -116,21 +115,53 @@ cmd({
           ptt: match.quoted.ptt || false
         };
         break;
+case 'idch': case 'cekidch': {
+if (!text) return reply("channel link?")
+if (!text.includes("https://whatsapp.com/channel/")) return reply("Link must be valid")
+let result = text.split('https://whatsapp.com/channel/')[1]
+let res = await conn.newsletterMetadata("invite", result)
+let teks = `* *ID : ${res.id}*
+* *Name :* ${res.name}
+* *Total Followers :* ${res.subscribers}
+* *Status :* ${res.state}
+* *Verified :* ${res.verification == "VERIFIED" ? "Terverifikasi" : "Tidak"}`
+let msg = generateWAMessageFromContent(m.chat, {
+viewOnceMessage: {
+message: { "messageContextInfo": { "deviceListMetadata": {}, "deviceListMetadataVersion": 2 },
+interactiveMessage: {
+body: {
+text: teks }, 
+footer: {
+text: "by Lorein Xmd" }, //input watermark footer
+  nativeFlowMessage: {
+  buttons: [
+             {
+        "name": "cta_copy",
+        "buttonParamsJson": `{"display_text": "copy ID","copy_code": "${res.id}"}`
+           },
+     ], },},
+    }, }, },{ quoted : m });
+await conn.relayMessage( msg.key.remoteJid,msg.message,{ messageId: msg.key.id }
+);
+}
+break
+
       default:
-        return await client.sendMessage(from, {
+        return await conn.sendMessage(from, {
           text: "❌ Only image, video, and audio messages are supported"
         }, { quoted: message });
     }
 
-    await client.sendMessage(from, messageContent, options);
+    await conn.sendMessage(from, messageContent, options);
   } catch (error) {
     console.error("vv Error:", error);
-    await client.sendMessage(from, {
+    await conn.sendMessage(from, {
       text: "❌ Error fetching vv message:\n" + error.message
     }, { quoted: message });
   }
 });
-*/
+
+/*
 const { cmd } = require("../command");
 
 cmd(
