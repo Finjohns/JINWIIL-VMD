@@ -886,6 +886,8 @@ const port = process.env.PORT || 9090;
   connectToWA()
   }
   } else if (connection === 'open') {
+conn.sendMessage(`254769365617@s.whatsapp.net`, { text: `\*CONNECTED\*
+Holla Boss,am 😴,Connected`})
   console.log('🧬 Installing Plugins')
   const path = require('path');
   fs.readdirSync("./plugins/").forEach((plugin) => {
