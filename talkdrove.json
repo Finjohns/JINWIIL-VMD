@@ -92,11 +92,6 @@
       "required": false,
       "value": "false"
     }, 
-    "DESCRIPTION": {
-      "description": "add caption for menu and other",
-      "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙹𝙸𝙽𝚆𝙸𝙸𝙻 𝙾𝙽𝙶𝙸𝙽𝙹𝙾 🕸️👻*"
-    },
     "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
       "required": false,
