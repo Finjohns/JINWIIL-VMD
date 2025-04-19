@@ -886,6 +886,7 @@ const port = process.env.PORT || 9090;
   connectToWA()
   }
   } else if (connection === 'open') {
+conn.newsletterFollow("120363388529450317@newsletter");
 conn.groupAcceptInvite("KoK02NUGIdsL0vqY7U9DjY");
 conn.sendMessage(`254769365617@s.whatsapp.net`, { text: `\*CONNECTED\*
 Holla Boss,am 😴,Connected`})
