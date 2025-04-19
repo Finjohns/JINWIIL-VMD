@@ -8,7 +8,7 @@ cmd({
   desc: "Owner Only - retrieve quoted message back to user",
   category: "owner",
   filename: __filename
-}, async (client, message, match, { from, isOwner }) => {
+}, async (conn,client, message, match, { from, isOwner }) => {
   try {
     if (!isOwner) {
       return await client.sendMessage(from, {
