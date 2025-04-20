@@ -3,7 +3,7 @@
   
 ---  
 
-> **`New version` The Version 1.0**
+> **`New version` The Version 1.8**
 ---
 
 ```
