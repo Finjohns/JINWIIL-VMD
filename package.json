@@ -1,12 +1,12 @@
 {
-  "name": "AWAIS-MD-V3",
+  "name": "JINWIIL-VMD-V3",
   "version": "4.0.0",
-  "description": "A WHATSAPP BOT CREATED BY AWAISXD",
+  "description": "A WHATSAPP BOT CREATED BY JINWIIL",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name AWAIS-MD",
-    "stop": "pm2 stop AWAIS-MD",
-    "restart": "pm2 restart AWAIS-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name JINWIIL-VMD",
+    "stop": "pm2 stop JINWIIL-VMD",
+    "restart": "pm2 restart JINWIIL-VMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
