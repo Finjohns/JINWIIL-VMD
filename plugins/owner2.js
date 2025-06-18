@@ -30,7 +30,7 @@ async (conn, mek, m, { from }) => {
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
             image: { url: config.ALIVE_IMG}, // Image URL from your request
-            caption: `╭━━〔 *AWAIS-MD* 〕━━┈⊷
+            caption: `╭━━〔 *JINWIIL-VMD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *HERE'S OWNER*
 ┃◈┃• *NAME* - ${ownerName}
@@ -38,14 +38,14 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *VERSION*: V3
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-*ᴀᴡᴀɪs ᴍᴅ*`, // Display the owner's details
+*𝗝𝗜𝗡𝗪𝗜𝗜𝗟-𝗩𝗠𝗗*`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363369260614615@newsletter',
-                    newsletterName: 'ᴀᴡᴀɪs ᴍᴅ',
+                    newsletterJid: '',
+                    newsletterName: '𝙹𝙸𝙽𝚆𝙸𝙸𝙻𝚃𝙴𝙲𝙷𝚅',
                     serverMessageId: 143
                 }            
             }
