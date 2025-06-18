@@ -29,13 +29,13 @@ cmd({
             return reply("Failed to fetch the video. Please try again later.");
         }
 
-        let ytmsg = ` *AWAIS MD VIDEO DOWNLOADER*
+        let ytmsg = ` *JINWIIL VMD VIDEO DOWNLOADER*
  *TITLE:* ${yts.title}
  *DURATION:* ${yts.timestamp}
  *VIEWS:* ${yts.views}
  *AUTHOR:* ${yts.author.name}
  *LINK:* ${yts.url}
-*ᴀᴡᴀɪs ᴍᴅ*`;
+*JINWIIL Vᴍᴅ*`;
 
         // Send video directly with caption
         await conn.sendMessage(
@@ -89,8 +89,8 @@ cmd({
             body: "FOR MORE UPDATE FOLLOW OUR CHAHNAL",
             mediaType: 1,
             thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
-            sourceUrl: 'https://whatsapp.com/channel/0029VashGieHAdNP11OHXH3P',
-            mediaUrl: 'https://whatsapp.com/channel/0029VashGieHAdNP11OHXH3P',
+            sourceUrl: 'https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N',
+            mediaUrl: 'https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N',
             showAdAttribution: true,
             renderLargerThumbnail: true
         }
