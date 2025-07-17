@@ -1,7 +1,9 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=JINWIIL-VMD_1.8" alt="Typing SVG" /></a>
   </p>
   
----  
+---
+
+![Powered By Jinwiil Tech](https://github.com/suzuki-0000/CountdownLabel/raw/master/Screenshots/example01.gif)
 
 > **`New version` The Version 1.8**
 ---
